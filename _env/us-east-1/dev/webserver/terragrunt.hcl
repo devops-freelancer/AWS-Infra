@@ -2,6 +2,6 @@ include "root" {
   path = find_in_parent_folders()
 }
 
-include "envcommon" {
-  path = "${dirname(find_in_parent_folders())}/_envcommon/terragrunt.hcl"
+include "_common" {
+  path = "${dirname(find_in_parent_folders())}/_common/terragrunt.hcl"
 }
