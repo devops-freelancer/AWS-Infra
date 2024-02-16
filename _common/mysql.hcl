@@ -15,6 +15,5 @@ inputs = {
   allocated_storage = 20
   storage_type      = "standard"
   master_username   = "admin"
-5
   # TODO: To avoid storing your DB password in the code, set it as the environment variable TF_VAR_master_password
 }
