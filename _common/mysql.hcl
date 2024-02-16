@@ -9,7 +9,7 @@ locals {
   env = local.environment_vars.locals.environment
   base_source_url = "git::git@github.com:gruntwork-io/terragrunt-infrastructure-modules-example.git//mysql"
 }
-7inputs = {
+inputs = {
   name              = "mysql_${local.env}"
   instance_class    = "db.t2.micro"
   allocated_storage = 20
