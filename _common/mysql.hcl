@@ -1,7 +1,7 @@
 
 terraform {
   #source = "${local.base_source_url}?ref=v0.7.0"
-  source = "../modules//mysql"1
+  source = "../modules//mysql"
 }
 
 locals {
